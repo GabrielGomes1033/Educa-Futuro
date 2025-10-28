@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educa+ Futuro - ODS 4: Educação de Qualidade</title>
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?size=100&id=jWPjQhx0oPhE&format=png&color=000000">
+    <style>
+        /* Reset básico */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f4f4f4; }
+        
+        /* Header/Banner */
+        header { background: linear-gradient(to right, #007bff, #28a745); color: white; text-align: center; padding: 50px 20px; }
+        header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        header p { font-size: 1.2em; margin-bottom: 20px; }
+        .btn { background: white; color: #007bff; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+        .btn:hover { background: #e9ecef; }
+
+        .logo{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 19px;
+            width: 5%;
+
+        }
+        
+        /* Seções */
+        section { padding: 40px 20px; max-width: 1200px; margin: 0 auto; }
+        section h2 { color: #007bff; margin-bottom: 20px; text-align: center; }
+        
+        /* Cards para Aprenda Gratuitamente */
+        .cards { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+        .card { background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); padding: 20px; width: 300px; text-align: center; }
+        .card h3 { color: #28a745; margin-bottom: 10px; }
+        .card a { color: #007bff; text-decoration: none; }
+        .card a:hover { text-decoration: underline; }
+        .info {text-align: center; margin-top: 30px;}
+        
+        /* Downloads */
+        .downloads { list-style: none; }
+        .downloads li { margin-bottom: 10px; }
+        .downloads a { color: #007bff; }
+        
+        /* Tabela Oportunidades */
+        table { width: 100%; border-collapse: collapse; background: white; margin-top: 20px; }
+        th, td { padding: 9px; border: 1px solid #ddd; text-align: left; }
+        th { background: #007bff; color: white; }
+
+        /* Mapa */
+        iframe { width: 100%; height: 300px; border: none; }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+        }
+        
+        /* Rodapé */
+        footer { background: #007bff; color: white; text-align: center; padding: 20px; }
+        footer a { color: white; margin: 0 10px; }
+        
+        /* Responsivo */
+        @media (max-width: 768px) {
+            .cards { flex-direction: column; align-items: center; }
+            .card { width: 100%; }
+            header h1 { font-size: 2em; }
+        }
+    </style>
+</head>
+<body>
+    <header id="home">
+        <img src="https://img.icons8.com/?size=100&id=jWPjQhx0oPhE&format=png&color=000000" alt="Computer man" style="width:48px;height:48px;">
+        <h1>Educa+ Futuro</h1>
+        <p>Educação transforma o futuro — e seu futuro começa agora.</p>
+        <a href="#aprenda" class="btn">Explorar Conteúdo</a>
+    </header>
+    
+    <section id="aprenda">
+        <h2>Aprenda Gratuitamente</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Alfabetização Digital</h3>
+                <p>Introdução ao computador, teclado e navegador.</p>
+                <a href="https://www.cursoemvideo.com/">Ver Mais</a> <!-- Link para página Sobre (simula) -->
+            </div>
+            <div class="card">
+                <h3>Programação para Iniciantes</h3>
+                <p>Curso básico usando JavaScript ou Scratch.</p>
+                <a href="https://www.cursoemvideo.com/">Ver Mais</a>
+            </div>
+            <div class="card">
+                <h3>Matemática Prática</h3>
+                <p>Aprender com exemplos do dia a dia.</p>
+                <a href="https://educacao-executiva.fgv.br/cursos/online/curta-media-duracao-online/introducao-matematica-financeira-regimes-de-capitalizacao">Ver Mais</a>
+            </div>
+            <div class="card">
+                <h3>Inglês Básico</h3>
+                <p>Vocabulários + exercícios simples.</p>
+                <a href="https://www.cursoemvideo.com/curso/curso-de-ingles-para-iniciantes-modulo-1-beginners-gratis-e-completo/">Ver Mais</a>
+            </div>
+            
+        </div>
+        <div class="info">
+            <p>Alguns cursos estão sujeitos a cobrança para a emissão do certificado.</p>
+        </div>
+    </section>
+    
+    <section id="offline">
+        <h2>Para Estudantes Sem Internet</h2>
+        <ul class="downloads">
+            <li><a href="https://drive.google.com/file/d/1BwuboMO3h4yhBH-QNKxjiQLo6-zis0AI/view?usp=drive_link">Cartilha de educação financeira (PDF)</a></li>
+            <li><a href="https://drive.google.com/file/d/1BNUWg5Oe8uGtkB8ojGc3xfajxKm87INV/view?usp=drive_link">Guia de estudo para ENEM (PDF)</a></li>
+            <li><a href="https://drive.google.com/file/d/1aPcnfJHXyLTQh4xf7th29kPxKlRxEvyS/view?usp=drive_link">Livro de leitura simples Criptomoedas (PDF)</a></li>
+        </ul>
+    </section>
+    
+    <section id="oportunidades">
+        <h2>Oportunidades</h2>
+        <table>
+            <tr><th>Tipo</th><th>Descrição</th><th>Link</th></tr>
+            <tr><td>Fundação Bradesco – Escola Virtual</td><td>🧩Curso: Informática Básica – Conceitos de Internet e Segurança Digital.</td><td><a href="https://www.ev.org.br/">Ver</a></td></tr>
+            <tr><td>SENAI e SESI</td><td>🧩 Voltado a quem quer aprender a usar computador profissionalmente.</td><td><a href="https://eadsenaies.com.br/">Ver</a></td></tr>
+            <tr><td>Santander Open Academy</td><td>🧩 O Santander Open Academy é uma iniciativa sem fins lucrativos do Banco Santander que o ajuda a obter formação nas habilidades profissionais necessárias para melhorar a sua empregabilidade e o seu futuro.</td><td><a href="https://www.santanderopenacademy.com/pt_br/index.html">Ver</a></td></tr>
+        </table>
+    </section>
+    <section id="youtube">
+        <h2>Canais do YouTube sobre finanças.</h2>
+        <table>
+            <tr><th>Canal</th><th>Descrição</th><th>Link</th></tr>
+            <tr><td>Economista Sincero</td><td>Se você quer aprender sobre investimentos, economia e liberdade financeira sem enrolação, chegou no canal certo!</td><td><a href="https://youtube.com/playlist?list=PLXjniBfERXn_2-bZvtKcsv3B7_VJfdF9_&si=OL6YOrDwssfKNkVB">Ver</a></td></tr>
+            <tr><td>Bruno Perini - Você MAIS Rico</td><td>Canal de vídeos de Bruno Perini - criador do site de educação financeira Você MAIS Rico e do curso Viver de Renda.
+            Aprenda mais sobre dinheiro, finanças e investimentos com quem realmente entende do assunto.</td><td><a href="https://youtube.com/playlist?list=PL5W1zc_5Ic9qxba6YwzaPiPFmgIMNJolB&si=tq5tVcehaf8jDV9K">Ver</a></td></tr>
+            <tr><td>EconoMirna</td><td>Canal de investimentos e educação financeira que vai te ensinar aquilo que a escola deveria ter te ensinado, MULTIPLICAR O SEU DINHEIRO com os investimentos certos</td><td><a href="https://youtube.com/playlist?list=PLlX5xeBziJ1X8cCLgsf94pNJ0u58Bd_qo&si=hVi2BEl8_qMU1u5B">Ver</a></td></tr>
+        </table>
+
+        <h2>Canais do YouTube sobre Programação.</h2>
+        <table>
+            <tr><th>Canal</th><th>Descrição</th><th>Link</th></tr>
+            <tr><td>Rafaella Ballerini</td><td>Programação e Tecnologia Web. </td><td><a href="https://www.youtube.com/@rafaellaballerini">Ver</a></td></tr>
+            <tr><td>Curso em Vídeo</td><td>Cursos em vídeo-aulas totalmente gratuitos, criados pelo Professor Gustavo Guanabara.</td><td><a href="https://www.youtube.com/@cursoemvideo">Ver</a></td></tr>
+            <tr><td>Foco em SEC</td><td>Cibersegurança. </td><td><a href="https://www.youtube.com/@focoemsec">Ver</a></td></tr>
+        </table>
+    </section>
+    
+    <section id="mapa">
+        <h2>Mapa de Bibliotecas e Centros Educacionais</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.5488271539734!2d-47.297942925876605!3d-23.25949955056939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf501ef21e024b%3A0x79f5ef47a2fbe125!2sSENAI%20-%20Servi%C3%A7o%20Nacional%20de%20Aprendizagem%20Industrial!5e0!3m2!1spt-BR!2sbr!4v1761521629968!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.54824083534!2d-47.43436852586543!3d-23.512776059806747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf6035213bb2b9%3A0xf788703501c35c95!2sSenac%20Sorocaba!5e0!3m2!1spt-BR!2sbr!4v1761521995966!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    
+    <section id="sobre">
+        <h2>Sobre a ODS 4</h2>
+        <p>A Educação é um direito humano fundamental que abre portas para melhores oportunidades e desenvolvimento pessoal, social e econômico. A ODS 4 visa garantir educação inclusiva, equitativa e de qualidade para todos.</p>
+        <a href="https://brasil.un.org/pt-br/sdgs"><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXf1CWDF9YJucwUmxr8modplM-j42jGj-JNdg2e85n_Uet001YKmHnGS3foDs17FtczUfqn7M9sj4ysV3Ofa-QunqVeexhewTKMLQ4o_qiugwX6r7tXdUuI-OPeKIEz1N7dSCkr662yAvCvopOP5TJWI0Ak?key=v-uArqhjfM7rS1J-0WkWBQ"></a>
+        
+    </section> 
+    <footer>
+        <p>Transforme o mundo começando pelo seu aprendizado.</p>
+        <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+        <h2>Entre em Contato</h2>
+        <p>Envie dúvidas, sugestões ou feedbacks para nossa equipe.</p>
+        <a href="https://forms.gle/wQGacRaRoNeagPGJ6"><img src="https://img.icons8.com/?size=100&id=kgfo8W3bFDUx&format=png&color=000000"alt="Computer man" style="width:48px;height:48px;"></a>
+    </footer>
+    
+</body>
+</html>
